@@ -20,9 +20,9 @@ The language and the format layer are open source under Apache-2.0.
 
 ## What is not open
 
-The runtime that executes the IR is proprietary. The split is the one HashiCorp
-drew between HCL and Terraform: you can read, parse, check, and compile the
-language without us, and the thing that runs the result is the product we sell.
+The runtime that executes the IR is proprietary. The split is the HCL and
+Terraform one: you can read, parse, check, and compile the language without us,
+and the thing that runs the result is the product we sell.
 Anything you write in HSX or `.udl` stays yours, and the tools that read it are
 Apache-2.0, so nothing you author is locked to a runtime you cannot inspect.
 
