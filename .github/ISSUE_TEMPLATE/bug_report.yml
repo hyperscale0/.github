@@ -1,0 +1,49 @@
+name: Bug report
+description: Something behaves differently from what the docs or the tests say.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not report a security vulnerability here. Use the Security tab on
+        this repository and click "Report a vulnerability".
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      description: The exact version installed, for example 1.0.0-alpha.3.
+      placeholder: 1.0.0-alpha.3
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you observed, including the exact error or output.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+      description: What the behavior should have been, and why you think so.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: >
+        The smallest input that shows the problem. For the format and the
+        language, paste the .udl or .hsx source. This box renders as code.
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: runtime
+    attributes:
+      label: Runtime
+      description: Node or Bun version, and operating system.
+      placeholder: Bun 1.4.0, macOS 15
+    validations:
+      required: false

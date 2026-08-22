@@ -1,0 +1,38 @@
+name: Feature request
+description: Propose a capability the format, the language, or the adapter kit is missing.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Changes to the format and the language are append-only once documents
+        exist. Adding an optional field, a state, or a verb is possible;
+        removing, renaming, or tightening one is not.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you trying to express or do that you cannot today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you want instead
+      description: The shape you have in mind. Sketch the syntax or the API.
+    validations:
+      required: true
+  - type: textarea
+    id: workaround
+    attributes:
+      label: What you are doing today
+      description: The workaround you have, or "none".
+    validations:
+      required: false
+  - type: checkboxes
+    id: compatibility
+    attributes:
+      label: Compatibility
+      options:
+        - label: This adds something. It does not remove, rename, or tighten anything that already exists.
+          required: false
