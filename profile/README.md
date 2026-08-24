@@ -9,14 +9,16 @@ of the tenant's runtime.
 
 ## What is open
 
-The language and the format layer are open source under Apache-2.0.
+The language and the format layer are open source under AGPL-3.0-only, with a
+commercial license available for anyone the copyleft does not fit. Each
+repository's `LICENSING.md` explains the two tracks. The starters are MIT.
 
 | Repo | What it is | License | npm |
 | --- | --- | --- | --- |
-| [udl](https://github.com/hyperscale0/udl) | The document format. Parser, validator, and canonical serializer for `.udl` documents. | Apache-2.0 | `@hyperscale0/udl` |
-| [hsx](https://github.com/hyperscale0/hsx) | The language. Lexer, parser, checker, and compiler down to an IR. | Apache-2.0 | `@hyperscale0/hsx` |
-| [provider-adapter](https://github.com/hyperscale0/provider-adapter) | The adapter format, its conformance suite, and the authoring guide. | Apache-2.0 | `@hyperscale0/provider-adapter` |
-| [starters](https://github.com/hyperscale0/starters) | Starter applications. Coming. | MIT | none |
+| [hyperscale-udl](https://github.com/hyperscale0/hyperscale-udl) | The document format. Parser, validator, and canonical serializer for `.udl` documents. | AGPL-3.0-only | `@hyperscale0/udl` |
+| [hyperscale-hsx](https://github.com/hyperscale0/hyperscale-hsx) | The language. Lexer, parser, checker, and compiler down to an IR. | AGPL-3.0-only | `@hyperscale0/hsx` |
+| [hyperscale-adl](https://github.com/hyperscale0/hyperscale-adl) | The adapter format, its conformance suite, and the authoring guide. | AGPL-3.0-only | `@hyperscale0/adl` |
+| [hyperscale-starters](https://github.com/hyperscale0/hyperscale-starters) | Starter applications in Go, Python, and TypeScript. | MIT | none |
 
 ## What is not open
 
@@ -24,21 +26,22 @@ The runtime that executes the IR is proprietary. The split is the HCL and
 Terraform one: you can read, parse, check, and compile the language without us,
 and the thing that runs the result is the product we sell.
 Anything you write in HSX or `.udl` stays yours, and the tools that read it are
-Apache-2.0, so nothing you author is locked to a runtime you cannot inspect.
+open source, so nothing you author is locked to a runtime you cannot inspect.
 
-## Install the libraries
-
-There is no scaffolding command yet. Install the packages directly.
+## Install
 
 ```bash
-npm install @hyperscale0/udl@alpha
-npm install @hyperscale0/hsx@alpha
-npm install @hyperscale0/provider-adapter@alpha
+npm install @hyperscale0/udl
+npm install @hyperscale0/hsx
+npm install @hyperscale0/adl
 ```
 
-Every package is `1.0.0-alpha.N` and publishes to the `alpha` dist-tag. The
-`latest` tag stays unset until 1.0.0, so an install without `@alpha` fails
-instead of quietly resolving to something we have not stabilized yet.
+Two tools ship alongside the libraries, free to use and proprietary-licensed:
+`npm create @hyperscale0` scaffolds a starter app, and `npx @hyperscale0/cli`
+drives a Product's operation surface with an API key.
+
+Every package is on the `1.0.0-alpha.N` line and `latest` tracks the newest
+alpha. Alpha versions can change behavior between releases.
 
 ## Contributing
 
@@ -47,7 +50,7 @@ before opening a pull request. It covers the CLA, commit style, and the test
 bar. Issues and pull requests belong on the specific repo, not here.
 
 Discussion of the format and the language happens in the open. If a seam our
-own adapters need is missing from `provider-adapter`, that is a bug in the kit,
+own adapters need is missing from the adapter kit, that is a bug in the kit,
 because first-party adapters use exactly the published kit and nothing more.
 
 ## Security
@@ -59,8 +62,8 @@ vulnerability. Full policy:
 
 ## Trademarks
 
-The name "Hyperscale" and the Hyperscale logo are not licensed under
-Apache-2.0. The code license covers the code. It does not grant permission to
-use the marks for your own product, service, or organization.
+The name "Hyperscale" and the Hyperscale logo are not licensed with the code.
+The code licenses cover the code. They do not grant permission to use the
+marks for your own product, service, or organization.
 
 [hyperscale0.ai](https://hyperscale0.ai)

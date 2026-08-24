@@ -2,14 +2,14 @@
 
 Support happens on the repository the problem is in, not on this one.
 
-- [udl](https://github.com/hyperscale0/udl/issues) for the `.udl` document
-  format, its parser, validator, and canonical serializer.
-- [hsx](https://github.com/hyperscale0/hsx/issues) for the HSX language: lexing,
-  parsing, checking, and compiling to the IR.
-- [provider-adapter](https://github.com/hyperscale0/provider-adapter/issues)
-  for the adapter format and its conformance suite.
-- [starters](https://github.com/hyperscale0/starters/issues) for the starter
-  applications.
+- [hyperscale-udl](https://github.com/hyperscale0/hyperscale-udl/issues) for
+  the `.udl` document format, its parser, validator, and canonical serializer.
+- [hyperscale-hsx](https://github.com/hyperscale0/hyperscale-hsx/issues) for
+  the HSX language: lexing, parsing, checking, and compiling to the IR.
+- [hyperscale-adl](https://github.com/hyperscale0/hyperscale-adl/issues) for
+  the adapter format and its conformance suite.
+- [hyperscale-starters](https://github.com/hyperscale0/hyperscale-starters/issues)
+  for the starter applications.
 
 Open an issue for a bug or a missing capability. If the repository has
 Discussions enabled, use it for questions about how something is meant to work,

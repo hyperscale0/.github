@@ -19,9 +19,10 @@ version.
 
 ## Contributor License Agreement
 
-Contributions are accepted under a CLA. A bot comments on your first pull
-request with the agreement and records your acceptance. We do not use DCO
-sign-off, so `git commit -s` is not required and does not substitute.
+Contributions are accepted under a CLA. Each repository that takes code
+contributions carries the agreement as `CLA.md`; read it and state your
+agreement in your first pull request. We do not use DCO sign-off, so
+`git commit -s` is not required and does not substitute.
 
 We ask for a CLA because Hyperscale owns these languages and needs to keep the
 freedom to relicense them. Your contribution stays yours; the CLA grants us the

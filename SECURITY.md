@@ -29,21 +29,24 @@ uncomfortable, post a comment on your own private report asking for a status.
 
 ## Supported versions
 
-Every published package is on the `1.0.0-alpha.N` line and the `alpha`
-dist-tag. Only the most recent alpha of each package gets fixes. There is no
-long-term support branch before 1.0.0, and an alpha version can change
+Every published package is on the `1.0.0-alpha.N` line and `latest` tracks
+the newest alpha. Only the most recent alpha of each package gets fixes. There
+is no long-term support branch before 1.0.0, and an alpha version can change
 behavior between releases.
 
 | Package | Supported |
 | --- | --- |
 | `@hyperscale0/udl` | latest `1.0.0-alpha.N` |
 | `@hyperscale0/hsx` | latest `1.0.0-alpha.N` |
-| `@hyperscale0/provider-adapter` | latest `1.0.0-alpha.N` |
+| `@hyperscale0/adl` | latest `1.0.0-alpha.N` |
+| `@hyperscale0/cli` | latest `1.0.0-alpha.N` |
+| `@hyperscale0/create` | latest `1.0.0-alpha.N` |
 
 ## Scope
 
-These repositories are libraries: a format, a language front end, and an
-adapter vocabulary. They parse and check untrusted input, so parser crashes,
+These repositories are libraries and tools: a format, a language front end,
+an adapter vocabulary, a CLI, and a scaffolder. The libraries parse and check
+untrusted input, so parser crashes,
 unbounded resource use on hostile input, and validation that accepts a document
 it should reject are all in scope. The Hyperscale platform itself is not in
 these repositories; if you have found something in the hosted product, report
