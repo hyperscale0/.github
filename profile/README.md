@@ -40,8 +40,8 @@ Two tools ship alongside the libraries, free to use and proprietary-licensed:
 `npm create @hyperscale0` scaffolds a starter app, and `npx @hyperscale0/cli`
 drives a Product's operation surface with an API key.
 
-Every package is on the `1.0.0-alpha.N` line and `latest` tracks the newest
-alpha. Alpha versions can change behavior between releases.
+Every package is on the `1.0.0-beta.N` line and `latest` tracks the newest
+beta. Beta versions can change behavior between releases.
 
 ## Contributing
 
@@ -66,4 +66,11 @@ The name "Hyperscale" and the Hyperscale logo are not licensed with the code.
 The code licenses cover the code. They do not grant permission to use the
 marks for your own product, service, or organization.
 
-[hyperscale0.ai](https://hyperscale0.ai)
+## Find Hyperscale
+
+- Site and portal: [hyperscale0.ai](https://hyperscale0.ai)
+- Docs and quickstart: [hyperscale0.ai/docs](https://hyperscale0.ai/docs)
+- Agent map: [hyperscale0.ai/llms.txt](https://hyperscale0.ai/llms.txt)
+- API contract: [hyperscale0.ai/openapi.json](https://hyperscale0.ai/openapi.json)
+- Hosted MCP server: listed in the [MCP registry](https://registry.modelcontextprotocol.io) as `ai.hyperscale0/hyperscale-tenant-tools`, manifest at [/.well-known/mcp.json](https://hyperscale0.ai/.well-known/mcp.json)
+- Contact: hello@hyperscale0.ai
