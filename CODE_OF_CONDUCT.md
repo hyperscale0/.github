@@ -1,4 +1,15 @@
+<p align="left">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hyperscale0/.github/main/docs/assets/brand/hyperscale-horizontal-white.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hyperscale0/.github/main/docs/assets/brand/hyperscale-horizontal.svg">
+  <img src="https://raw.githubusercontent.com/hyperscale0/.github/main/docs/assets/brand/hyperscale-horizontal.svg" alt="Hyperscale™" width="394">
+</picture>
+</p>
+
 # Contributor Covenant Code of Conduct
+
+The code of conduct for the Hyperscale™ community.
+
 
 ## Our Pledge
 
@@ -81,3 +92,7 @@ For answers to common questions about this code of conduct, see the FAQ at [http
 [Mozilla CoC]: https://github.com/mozilla/diversity
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
+
+---
+
+Hyperscale™ is a trademark of Hyperscale LLC. Code licenses do not grant rights to the name or marks.

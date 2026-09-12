@@ -1,4 +1,15 @@
+<p align="left">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hyperscale0/.github/main/docs/assets/brand/hyperscale-horizontal-white.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hyperscale0/.github/main/docs/assets/brand/hyperscale-horizontal.svg">
+  <img src="https://raw.githubusercontent.com/hyperscale0/.github/main/docs/assets/brand/hyperscale-horizontal.svg" alt="Hyperscale™" width="394">
+</picture>
+</p>
+
 # Security policy
+
+Security reporting for Hyperscale™ repositories.
+
 
 This policy covers every repository in the `hyperscale0` organization that does
 not publish its own.
@@ -51,3 +62,7 @@ unbounded resource use on hostile input, and validation that accepts a document
 it should reject are all in scope. The Hyperscale platform itself is not in
 these repositories; if you have found something in the hosted product, report
 it on this repository and we will route it.
+
+---
+
+Hyperscale™ is a trademark of Hyperscale LLC. Code licenses do not grant rights to the name or marks.

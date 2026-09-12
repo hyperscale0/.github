@@ -1,4 +1,15 @@
+<p align="left">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hyperscale0/.github/main/docs/assets/brand/hyperscale-horizontal-white.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hyperscale0/.github/main/docs/assets/brand/hyperscale-horizontal.svg">
+  <img src="https://raw.githubusercontent.com/hyperscale0/.github/main/docs/assets/brand/hyperscale-horizontal.svg" alt="Hyperscale™" width="394">
+</picture>
+</p>
+
 # Support
+
+Support for Hyperscale™ repositories.
+
 
 Support happens on the repository the problem is in, not on this one.
 
@@ -24,3 +35,7 @@ Security problems do not go here. Follow
 
 These are alpha packages maintained by a small team. We answer what we can, and
 we would rather have a precise issue sitting open than a vague one closed.
+
+---
+
+Hyperscale™ is a trademark of Hyperscale LLC. Code licenses do not grant rights to the name or marks.

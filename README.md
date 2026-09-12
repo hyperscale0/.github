@@ -1,6 +1,14 @@
-# .github
+<p align="left">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hyperscale0/.github/main/docs/assets/brand/hyperscale-horizontal-white.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hyperscale0/.github/main/docs/assets/brand/hyperscale-horizontal.svg">
+  <img src="https://raw.githubusercontent.com/hyperscale0/.github/main/docs/assets/brand/hyperscale-horizontal.svg" alt="Hyperscale™" width="394">
+</picture>
+</p>
 
-Organization-wide defaults for [hyperscale0](https://github.com/hyperscale0).
+# Hyperscale community
+
+Hyperscale™ community files and organisation profile for [hyperscale0](https://github.com/hyperscale0).
 
 `profile/README.md` renders on the organization's public profile page.
 
@@ -11,3 +19,7 @@ templates under `.github/ISSUE_TEMPLATE/`. A repository that adds its own file
 overrides the default for that file only.
 
 This repository must stay public for those defaults to apply.
+
+---
+
+Hyperscale™ is a trademark of Hyperscale LLC. Code licenses do not grant rights to the name or marks.

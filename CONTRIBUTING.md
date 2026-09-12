@@ -1,4 +1,15 @@
+<p align="left">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hyperscale0/.github/main/docs/assets/brand/hyperscale-horizontal-white.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hyperscale0/.github/main/docs/assets/brand/hyperscale-horizontal.svg">
+  <img src="https://raw.githubusercontent.com/hyperscale0/.github/main/docs/assets/brand/hyperscale-horizontal.svg" alt="Hyperscale™" width="394">
+</picture>
+</p>
+
 # Contributing
+
+Contributing to Hyperscale™ repositories.
+
 
 This applies to every repository in the `hyperscale0` organization that does not
 publish its own guide.
@@ -61,3 +72,7 @@ unrelated files is hard to review and will be sent back.
 
 Public repositories build on GitHub-hosted runners. CI has to be green before
 review is worth anyone's time.
+
+---
+
+Hyperscale™ is a trademark of Hyperscale LLC. Code licenses do not grant rights to the name or marks.
