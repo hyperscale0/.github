@@ -8,9 +8,13 @@
 
 # Hyperscale
 
-What will you build? Start with the financial rules you want for your company.
+What company will you create?
 
-We're still testing Hyperscale™. No real bank infrastructure is connected.
+A place to build your company. For the company you have in mind.
+
+We've solved the hard problem of building the backend technology. You build on it to create your company.
+
+We're still testing. Nothing is live and no real bank is connected.
 
 [Documentation](https://hyperscale0.ai/docs) · [Request access](https://hyperscale0.ai/request-access)
 
