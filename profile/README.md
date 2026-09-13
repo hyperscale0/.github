@@ -8,7 +8,17 @@
 
 # Hyperscale
 
-Hyperscale™ is the operating system for financial products. Founders and agents
+Finance, authored by you.
+
+What will you build? Start with the financial rules you want for your company.
+
+We're still testing Hyperscale™. No real bank infrastructure is connected.
+
+[Documentation](https://hyperscale0.ai/docs) · [Request access](https://hyperscale0.ai/request-access)
+
+## Technical overview
+
+Hyperscale is the operating system for financial products. Founders and agents
 write HSX programs, the compiler turns them into canonical UDL, and the
 platform projects each Product's APIs, SDKs, and operating views from that
 contract. Hyperscale Arc executes the compiled product. Bank transport and
@@ -17,8 +27,6 @@ credentials stay behind the adapter boundary.
 Hyperscale is never itself a fintech and never a TPP. It hosts the control
 plane, including the engine, portal, and registry. It hosts none of the
 tenant's runtime.
-
-[Documentation](https://hyperscale0.ai/docs) · [Request access](https://hyperscale0.ai/request-access)
 
 Nothing here is live. The running estates are test estates, with no external
 consumers or real bank infrastructure connected.
