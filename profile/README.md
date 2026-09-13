@@ -8,8 +8,6 @@
 
 # Hyperscale
 
-Finance, authored by you.
-
 What will you build? Start with the financial rules you want for your company.
 
 We're still testing Hyperscale™. No real bank infrastructure is connected.
