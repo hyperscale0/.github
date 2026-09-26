@@ -161,10 +161,10 @@ Two tools ship alongside the libraries, free to use and proprietary-licensed:
 `npm create @hyperscale0` scaffolds a starter app, and `npx @hyperscale0/cli`
 drives a Product's operation surface with an API key.
 
-The language packages have separate versions: Hyperscale UDL is `2.0.4`,
-Hyperscale HSX is `2.0.5`, and Hyperscale ADL is `1.0.0-beta.3`. ADL remains
-on the `1.0.0-beta.N` line. Beta versions can change behavior between releases;
-pin the version you use.
+Every package ships together under one version, `1.0.N`, where `N` is the
+platform release number: release r123 publishes UDL, HSX, ADL, the SDK, the
+CLI and `create` as `1.0.123`. The 1.0 line is the base platform with sandbox
+adapters. Pin the version you use.
 
 ## Contributing
 

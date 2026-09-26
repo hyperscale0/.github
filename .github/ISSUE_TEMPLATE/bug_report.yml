@@ -11,8 +11,8 @@ body:
     id: version
     attributes:
       label: Package version
-      description: The exact version installed, for example 1.0.0-alpha.3.
-      placeholder: 1.0.0-alpha.3
+      description: The exact version installed, for example 1.0.123.
+      placeholder: 1.0.123
     validations:
       required: true
   - type: textarea
